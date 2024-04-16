@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1><span id="city-name"></span>, <span id="temperature"></span></h1>
+      <input type="text" id="search-input" placeholder="Islamabad" />
+      <button id="search-button">Search</button>
+    </header>
+
+    <div id="weather-container">
+      <div id="current-weather" class="weather-section">
+        <h1>Weather Details </h1>
+        <div class="weather-details">
+          <div class="weather-icon">
+            <img id="weather-icon-img" src="" alt="Weather Icon" />
+          </div>
+          <div class="weather-description">
+            <h4 id="weather-condition"></h4>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+            <p id="pressure"></p>
+            <p id="visibility"></p>
+            <p id="air-quality-value"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
